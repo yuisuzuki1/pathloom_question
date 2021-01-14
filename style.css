@@ -51,7 +51,6 @@ header {
 #results {
   height: 80vh;
   width: 43vh;
-  overflow: scroll; 
 }
 
 #map, #results {
@@ -65,10 +64,13 @@ header {
   margin: auto;
   margin-bottom: 2%;
   margin-top: 2%;
-  overflow: auto;
   border-radius: 3%;
   min-width: 43;
   min-height: 70vh;
+}
+
+.trail, #results {
+  overflow: auto;
 }
 
 .trail img {
