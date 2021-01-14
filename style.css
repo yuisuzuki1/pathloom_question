@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  text-align: center;
+  
+  background-image: url("./img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#head {
+  max-height: 8%;
+  width: 100%;
+  background-color: black;
+  flex-direction: vertical;
+  justify-content: center;
+}
+
+#logo {
+  max-height: 64px;
+}
+
+header {
+  background: black;
+  color: #e8d8c3;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+#head, #container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#container {
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+
+#map {
+  border-style: solid;
+  border-color: darkgray;
+  max-width: 100%;
+  width: 60%;
+  max-height: 100%;
+  height: 70%;
+  cursor: pointer;
+}
+
+#results {
+  height: 80vh;
+  width: 43vh;
+  overflow: scroll; 
+}
+
+#map, #results {
+  margin-bottom: 3%;
+  border-radius: 2%;
+  min-width: 400px;
+}
+
+.trail {
+  background: whitesmoke;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  overflow: auto;
+  border-radius: 3%;
+  min-width: 43;
+  min-height: 70vh;
+}
+
+.trail img {
+  width: 90%;
+  height: 40%;
+}
+
+.trail p {
+  padding-right: 2%;
+  padding-left: 2%;
+  font-size: small;
+}
+
+#instructions {
+  background-color: hsla(0, 100%, 100%, 0.8);
+}
+
+.hidden {
+  display: none;
+}
